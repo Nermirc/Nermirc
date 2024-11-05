@@ -1,4 +1,4 @@
-[![MasterHead](https://pixabay.com/tr/photos/diz%C3%BCst%C3%BC-bilgisayar-dijital-cihaz-5673901/)
+![MasterHead](https://www.patentnext.com/wp-content/uploads/sites/990/2021/04/Programming-code-abstract-technology-background-of-software-developer-and-Computer-script-iStock-1224500457-scaled-1-1100x617.jpg)
 <h1 align="center">Hi 👋, I'm Emir NERGİZOĞLU</h1>
 <h3 align="center">Electrical-Electronics Engineering Student</h3>
 
