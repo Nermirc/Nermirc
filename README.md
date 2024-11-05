@@ -1,4 +1,4 @@
-[![MasterHead](https://turkmaarifansiklopedisi.org.tr/uploads/matter/original/ataturk-mustafa-kemal-1657085cb2599f.webp)
+![MasterHead](https://turkmaarifansiklopedisi.org.tr/uploads/matter/original/ataturk-mustafa-kemal-1657085cb2599f.webp)
 <h1 align="center">Hi 👋, I'm Emir NERGİZOĞLU</h1>
 <h3 align="center">Electrical-Electronics Engineering Student - 2/4</h3>
 
