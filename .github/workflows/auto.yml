@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '30 2 * * *'  # Her gün UTC 2:30'da çalışır
+    - cron: '12 16 * * *'  # Her gün 16.12'de otomatik commit 
 
 jobs:
   commit:
@@ -11,11 +11,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Make an empty commit
+      - name: Configure git
         run: |
           git config user.name "Emir N."
-          git config user.email "rakrime_262@hotmail.com"  # E-posta adresinizi buraya ekleyin
+          git config user.email "rakrime_262@hotmail.com"
+
+      - name: Make an empty commit
+        run: |
           date >> daily_commit.txt
           git add daily_commit.txt
           git commit -m "Daily commit"
-          git push
+
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
